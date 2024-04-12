@@ -1,5 +1,3 @@
-# Название сценария
+# Подпись и проверка Docker-образов Yandex Container Registry в Yandex Managed Service for Kubernetes®
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете подписать Docker-образы с помощью [Cosign](https://docs.sigstore.dev/cosign/overview) в [Container Registry](https://yandex.cloud/ru/docs/container-registry), а затем настроить проверку подписей в [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes). Подготовка инфраструктуры для Managed Service for Kubernetes® и Container Registry через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/sign-cr-with-cosign), необходимый для настройки конфигурационный файл [k8s-validate-cr-image.tf](k8s-validate-cr-image.tf) расположен в этом репозитории.
