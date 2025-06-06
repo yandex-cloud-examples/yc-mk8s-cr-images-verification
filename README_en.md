@@ -1,0 +1,3 @@
+# Signing and verifying Yandex Container Registry Docker images in Yandex Managed Service for Kubernetes®
+
+Use [Cosign](https://docs.sigstore.dev/cosign/overview) to sign Docker images in [Container Registry](https://yandex.cloud/docs/container-registry) and then set up signature verification in [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes). See this [tutorial](https://yandex.cloud/docs/managed-kubernetes/tutorials/sign-cr-with-cosign) to learn how to prepare the infrastructure for Managed Service for Kubernetes® and Container Registry using Terraform. This repository contains the configuration file you will need: [k8s-validate-cr-image.tf](k8s-validate-cr-image.tf).
